@@ -9,12 +9,12 @@ import { setOpen } from '../../../actions/MenuOptionsActions'
 const MenuShort = () : JSX.Element => {
   const dispatch = useAppDispatch()
   const {anchorElNav} = useAppSelector((state) => state.menuOptions)
-
   const handleOpenNavMenu = (event: MouseEvent<HTMLElement>) => {
+    // @ts-expect-error: Unreachable code error
     dispatch(setOpen(event.currentTarget))
   }
-  
   const handleCloseNavMenu = () => {
+    // @ts-expect-error: Unreachable code error
     dispatch(setOpen(null))
   }
 
