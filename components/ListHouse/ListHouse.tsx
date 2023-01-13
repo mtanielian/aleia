@@ -10,7 +10,7 @@ const ListHouse = () => {
     <Grid container >
       {(houses as House[]).map((house) => { return (
         <ListItem key={house.image} house={house} />
-      )})})
+      )})}
     </Grid>
   )
 }
