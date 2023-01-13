@@ -6,7 +6,7 @@ import { MenuItem, Typography } from '@mui/material'
 const MenuShortItems = () : JSX.Element => {
   const dispatch = useAppDispatch()
   // @ts-expect-error: Unreachable code error
-  const handleCloseNavMenu = (event: MouseEvent<HTMLElement>) => {
+  const handleCloseNavMenu = (event: MouseEvent<HTMLElement>) => {  // eslint-disable-line
     // @ts-expect-error: Unreachable code error
     dispatch(setOpen(null))
   }
