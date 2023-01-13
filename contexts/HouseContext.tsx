@@ -6,18 +6,18 @@ interface PropsCreateContext {
   houses: House[],
   loading: boolean,
   error: boolean,
-  setHouses: () =>  Dispatch<SetStateAction<House[]>>,
-  setLoading: () => Dispatch<SetStateAction<boolean>>,
-  setError: () => Dispatch<SetStateAction<boolean>>
+  setHouses: Dispatch<SetStateAction<House[]>>,
+  setLoading: Dispatch<SetStateAction<boolean>>,
+  setError: Dispatch<SetStateAction<boolean>>
 }
 
 const valuesCreateContext = {
   houses: [],
   loading: false,
   error: false,
-  setHouses: () => void 0,
-  setLoading: () => void 0,
-  setError: ()  => void 0,
+  setHouses: () => void [],
+  setLoading: () => void false,
+  setError: ()  => void false,
 }
 
 
