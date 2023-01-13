@@ -1,7 +1,12 @@
+import { MouseEvent } from 'react'
 import { AnyAction } from 'redux'
 import { SET_MENU_OPEN } from '../actionsTypes/types'  
 
-const INITIA_STATE = {
+interface STATE {
+  anchorElNav: MouseEvent<HTMLElement | null>
+}
+
+const INITIA_STATE : STATE = {
   anchorElNav: null
 }
 
