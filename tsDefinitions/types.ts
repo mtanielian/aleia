@@ -1,0 +1,1 @@
+export type MenuOptions = 'About as' | 'Projects' | 'Career' | 'Contacts'

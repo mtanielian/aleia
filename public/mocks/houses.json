@@ -1,0 +1,30 @@
+[{
+  "image": "house1.png",
+  "price": "$4.354.365",
+  "direction": "7187 Morapa Dr."
+},
+{
+  "image": "house2.png",
+  "price": "$4.354.36",
+  "direction": "1301 Dolphin Terra"
+},
+{
+  "image": "house3.png",
+  "price": "$4.354.365",
+  "direction": "215 Milford Dr."
+},
+{ 
+  "image": "house4.png",
+  "price": "$4.354.365",
+  "direction": "9315 Nightingale Dr."
+},
+{
+  "image": "house5.png",
+  "price": "$4.354.365",
+  "direction": "14953 Sutton St°"
+},
+{
+  "image": "house6.png",
+  "price": "$4.354.365",
+  "direction": "215 Milford Dr."
+}]
